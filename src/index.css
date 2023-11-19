@@ -1,13 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
 body {
+  /* width: 1366px; */
+  /* margin: 0 auto; */
+  font-family: "Roboto", sans-serif;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  /* outline: none; */
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  /* outline:2px solid black; */
+}
+.main {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button,
+svg {
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #dedddd;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #fdbe1f;
+  border-radius: 6px;
 }
